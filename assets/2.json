@@ -1,0 +1,23 @@
+{
+    "name": "Sexy_Muscle",
+    "symbol": "",
+    "image": "2.png",
+    "collection": {
+        "name": "Sexy_Muscle",
+        "family": "SolMuscle"
+    },
+    "properties": {
+        "files": [
+            {
+                "uri": "2.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "33yTMBNsUtvTcF9v4QgPBuWW7V2bH8XbNTBneCgRuiX2",
+                "share": 100
+            }
+        ]
+    }
+}
