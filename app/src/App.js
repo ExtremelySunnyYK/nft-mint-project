@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import twitterLogo from "./assets/twitter-logo.svg";
+import CandyMachine from "./CandyMachine";
 
 // Constants
 const TWITTER_HANDLE = "_buildspace";
@@ -71,11 +72,12 @@ const App = () => {
 		<div className="App">
 			<div className="container">
 				<div className="header-container">
-					<p className="header">🍭 Candy Drop</p>
+					<p className="header">🍭 Muscle Candy Collection</p>
 					{/* Add the condition to show this only if we don't have a wallet address */}
 					{!walletAddress && renderNotConnectedContainer()}
-					<p className="sub-text">NFT drop machine with fair mint</p>
+					<p className="sub-text">NFT Guns with fair mint</p>
 				</div>
+				{walletAddress && <CandyMachine walletAddress={window.solana} />}
 				<div className="footer-container">
 					<img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
 					<a
