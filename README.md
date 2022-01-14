@@ -3,7 +3,8 @@
 A simple website to allow users to mint NFT from Solana
 
 Deployed on DevNet
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/ExtremelySunnyYK/nft-mint-project/blob/main/readmeassets/nft.PNG?raw=true)
+![alt text](https://github.com/ExtremelySunnyYK/nft-mint-project/blob/main/readmeassets/nft2.PNG?raw=true)
 
 ### Installation
 
